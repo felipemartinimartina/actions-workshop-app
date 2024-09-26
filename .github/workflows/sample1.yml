@@ -43,12 +43,12 @@ jobs:
         run: echo "Running sequential job"
 
   reusable-workflow-1:
-    uses: ./.github/workflows/reusable-workflow.yml
+    uses: ./.github/workflows/reusable.yml
     with:
       some-input: Cordeiro1
     
   reusable-workflow-2:
-    uses: ./.github/workflows/reusable-workflow.yml
+    uses: ./.github/workflows/reusable.yml
     with:
       some-input: Seninha
           
